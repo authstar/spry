@@ -3,8 +3,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/legitbiz/spry"
-	"github.com/legitbiz/spry/core"
+	"github.com/authstar/spry"
+	"github.com/authstar/spry/core"
 )
 
 func TestIdSetBehavior(t *testing.T) {

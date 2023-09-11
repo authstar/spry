@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/authstar/spry"
+	"github.com/authstar/spry/postgres"
+	"github.com/authstar/spry/storage"
+	"github.com/authstar/spry/tests"
 	"github.com/gofrs/uuid"
 	"github.com/jackc/pgx/v4"
-	"github.com/legitbiz/spry"
-	"github.com/legitbiz/spry/postgres"
-	"github.com/legitbiz/spry/storage"
-	"github.com/legitbiz/spry/tests"
 )
 
 func TestCommandStorage(t *testing.T) {

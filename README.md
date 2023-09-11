@@ -1,6 +1,6 @@
 # spry
 
-## `main` build [![CircleCI](https://dl.circleci.com/status-badge/img/gh/legitbiz/spry/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/legitbiz/spry/tree/main)
+## `main` build [![CircleCI](https://dl.circleci.com/status-badge/img/gh/authstar/spry/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/authstar/spry/tree/main)
 
 An event sourcing library in Go.
 
@@ -17,10 +17,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/legitbiz/spry"
-	"github.com/legitbiz/spry/memory"
-	"github.com/legitbiz/spry/postgres"
-	"github.com/legitbiz/spry/storage"
+	"github.com/authstar/spry"
+	"github.com/authstar/spry/memory"
+	"github.com/authstar/spry/postgres"
+	"github.com/authstar/spry/storage"
 )
 
 // Actors are how you model state in spry.

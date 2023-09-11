@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/legitbiz/spry"
+	"github.com/authstar/spry"
 )
 
 type Withit struct {

@@ -10,11 +10,11 @@ jobs:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
-      - image: arobson/golang:1.19.1-docker
+      - image: authstar/golang:1.19.1-docker
         auth:
           username: $DOCKER_USERNAME
           password: $DOCKER_PASSWORD
-      - image: arobson/spry:cidb
+      - image: authstar/spry:cidb
         auth:
           username: $DOCKER_USERNAME
           password: $DOCKER_PASSWORD

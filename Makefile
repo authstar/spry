@@ -1,4 +1,4 @@
-build: godeps golint
+build: godeps
 	go build -o ./bin/spry
 	cd ./cli && \
 		go build -o ../bin/spry-cli && \

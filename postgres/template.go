@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arobson/spry/storage"
+	"github.com/authstar/spry/storage"
 )
 
 var banner = `

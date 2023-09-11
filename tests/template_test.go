@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/legitbiz/spry/storage"
+	"github.com/authstar/spry/storage"
 )
 
 //go:embed sql

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/legitbiz/spry"
+	"github.com/authstar/spry"
 	"github.com/mitchellh/mapstructure"
 )
 

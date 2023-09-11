@@ -1,6 +1,6 @@
 package tests
 
-import "github.com/legitbiz/spry"
+import "github.com/authstar/spry"
 
 // an aggregate
 type World struct {

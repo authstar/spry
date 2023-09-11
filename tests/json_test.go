@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/legitbiz/spry"
-	"github.com/legitbiz/spry/storage"
+	"github.com/authstar/spry"
+	"github.com/authstar/spry/storage"
 	"github.com/mitchellh/mapstructure"
 )
 

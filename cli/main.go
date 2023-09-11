@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/arobson/spry/cli/cmds"
+	"github.com/authstar/spry/cli/cmds"
 )
 
 func main() {

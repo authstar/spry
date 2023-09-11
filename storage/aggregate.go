@@ -5,8 +5,8 @@ import (
 	"errors"
 	"reflect"
 
+	"github.com/authstar/spry"
 	"github.com/gofrs/uuid"
-	"github.com/legitbiz/spry"
 )
 
 type AggregateRepository[T spry.Aggregate[T]] struct {

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/authstar/spry"
 	"github.com/gofrs/uuid"
-	"github.com/legitbiz/spry"
 )
 
 func GetId() (uuid.UUID, error) {

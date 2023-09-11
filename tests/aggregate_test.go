@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
+	"github.com/authstar/spry"
+	"github.com/authstar/spry/storage"
 	"github.com/gofrs/uuid"
-	"github.com/legitbiz/spry"
-	"github.com/legitbiz/spry/storage"
 )
 
 func TestAggregateIds(t *testing.T) {

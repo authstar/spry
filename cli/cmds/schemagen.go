@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/arobson/spry/postgres"
+	"github.com/authstar/spry/postgres"
 	"github.com/spf13/cobra"
 )
 

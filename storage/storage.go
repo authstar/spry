@@ -4,8 +4,8 @@ import (
 	"context"
 	"reflect"
 
+	"github.com/authstar/spry"
 	"github.com/gofrs/uuid"
-	"github.com/legitbiz/spry"
 )
 
 type NoOpTx struct{}

@@ -3,7 +3,7 @@ package spry
 import (
 	"encoding/json"
 
-	"github.com/legitbiz/spry/core"
+	"github.com/authstar/spry/core"
 )
 
 type Identifiers = map[string]any

@@ -1,4 +1,4 @@
-module github.com/legitbiz/spry
+module github.com/authstar/spry
 
 go 1.19
 
