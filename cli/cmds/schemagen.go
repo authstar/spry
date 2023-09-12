@@ -27,9 +27,6 @@ func generateSchema(cmd *cobra.Command, args []string) {
 		panic("actor name is required to generate a schema")
 	}
 	var fullPath, _ = cmd.Flags().GetString("output")
-	if fullPath == "" {
-		fmt.Printf("No output path specified, printing to stdout\n")
-	}
 	var schema, err = postgres.PostgresGenerateActorSchema(actorName)
 	if err != nil {
 		panic(fmt.Sprintf("Failed to generate schema: %e", err))
